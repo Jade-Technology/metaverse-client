@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | JadeShop3D</title>
-    <script src="https://cdn.socket.io/4.0.0/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js" integrity="sha512-MgkNs0gNdrnOM7k+0L+wgiRc5aLgl74sJQKbIWegVIMvVGPc1+gc1L2oK9Wf/D9pq58eqIJAxOonYPVE5UwUFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -30,9 +30,9 @@
       var buildUrl = "https://jadebotstorage.blob.core.windows.net/unity-webgl/jade-metaverse";
       var loaderUrl = buildUrl + "/JadeBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/JadeBuild.data.gz",
-        frameworkUrl: buildUrl + "/JadeBuild.framework.js.gz",
-        codeUrl: buildUrl + "/JadeBuild.wasm.gz",
+        dataUrl: buildUrl + "/JadeBuild.data",
+        frameworkUrl: buildUrl + "/JadeBuild.framework.js",
+        codeUrl: buildUrl + "/JadeBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "JadeShop3D",
